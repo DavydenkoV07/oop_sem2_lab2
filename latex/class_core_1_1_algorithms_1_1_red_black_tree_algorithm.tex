@@ -1,0 +1,113 @@
+\doxysection{Core.\+Algorithms.\+Red\+Black\+Tree\+Algorithm Class Reference}
+\hypertarget{class_core_1_1_algorithms_1_1_red_black_tree_algorithm}{}\label{class_core_1_1_algorithms_1_1_red_black_tree_algorithm}\index{Core.Algorithms.RedBlackTreeAlgorithm@{Core.Algorithms.RedBlackTreeAlgorithm}}
+
+
+Implementation of a Red-\/\+Black Tree, which is a balanced binary search tree. Additionally extended to an Order-\/\+Statistic Tree, which allows finding an element by its rank and the rank of a specific element.  
+
+
+Inheritance diagram for Core.\+Algorithms.\+Red\+Black\+Tree\+Algorithm\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_core_1_1_algorithms_1_1_red_black_tree_algorithm}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+int? \mbox{\hyperlink{class_core_1_1_algorithms_1_1_red_black_tree_algorithm_afe506d10872208fe6c72b9c0ffd95b16}{Os\+Select}} (int i)
+\item 
+int \mbox{\hyperlink{class_core_1_1_algorithms_1_1_red_black_tree_algorithm_a5e22b1963c090adfaa01ee1bfe47d619}{Os\+Rank}} (int target\+Key)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{class_core_1_1_algorithms_1_1_algorithm_template}{Core.\+Algorithms.\+Algorithm\+Template}}}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_core_1_1_algorithms_1_1_algorithm_template_a98808863a703686084dbc051bf81b12a}{Execute}} (int\mbox{[}$\,$\mbox{]} data)
+\begin{DoxyCompactList}\small\item\em A template method that calls validation and then directly the algorithm logic. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+override void \mbox{\hyperlink{class_core_1_1_algorithms_1_1_red_black_tree_algorithm_a8366e0a7130e5011e98c4c3eb2d31830}{Perform\+Algorithm}} (int\mbox{[}$\,$\mbox{]} data)
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions inherited from \mbox{\hyperlink{class_core_1_1_algorithms_1_1_algorithm_template}{Core.\+Algorithms.\+Algorithm\+Template}}}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_core_1_1_algorithms_1_1_algorithm_template_a02f4480e07e2967f174cc2100f0461e6}{Perform\+Algorithm}} (int\mbox{[}$\,$\mbox{]} data)
+\begin{DoxyCompactList}\small\item\em An abstract method that specific classes of algorithms must implement. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+override string \mbox{\hyperlink{class_core_1_1_algorithms_1_1_red_black_tree_algorithm_af5fdf6083444cdcaa073ec3bd2d6768e}{Name}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Algorithm name. \end{DoxyCompactList}\item 
+override string \mbox{\hyperlink{class_core_1_1_algorithms_1_1_red_black_tree_algorithm_af3554572b56c0b6278b968ce7af40e5e}{Complexity}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Theoretical complexity of the algorithm. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Properties inherited from \mbox{\hyperlink{class_core_1_1_algorithms_1_1_algorithm_template}{Core.\+Algorithms.\+Algorithm\+Template}}}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{class_core_1_1_algorithms_1_1_algorithm_template_aadd718a3bb59259b594868bc9bcf8fdf}{Name}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Algorithm name. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_core_1_1_algorithms_1_1_algorithm_template_a9a1b9da5b41e09ad19dac301663e93cb}{Complexity}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Theoretical complexity of the algorithm. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Implementation of a Red-\/\+Black Tree, which is a balanced binary search tree. Additionally extended to an Order-\/\+Statistic Tree, which allows finding an element by its rank and the rank of a specific element. 
+
+\label{doc-func-members}
+\Hypertarget{class_core_1_1_algorithms_1_1_red_black_tree_algorithm_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_core_1_1_algorithms_1_1_red_black_tree_algorithm_a5e22b1963c090adfaa01ee1bfe47d619}\index{Core.Algorithms.RedBlackTreeAlgorithm@{Core.Algorithms.RedBlackTreeAlgorithm}!OsRank@{OsRank}}
+\index{OsRank@{OsRank}!Core.Algorithms.RedBlackTreeAlgorithm@{Core.Algorithms.RedBlackTreeAlgorithm}}
+\doxysubsubsection{\texorpdfstring{OsRank()}{OsRank()}}
+{\footnotesize\ttfamily \label{class_core_1_1_algorithms_1_1_red_black_tree_algorithm_a5e22b1963c090adfaa01ee1bfe47d619} 
+int Core.\+Algorithms.\+Red\+Black\+Tree\+Algorithm.\+Os\+Rank (\begin{DoxyParamCaption}\item[{int}]{target\+Key}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_core_1_1_algorithms_1_1_red_black_tree_algorithm_afe506d10872208fe6c72b9c0ffd95b16}\index{Core.Algorithms.RedBlackTreeAlgorithm@{Core.Algorithms.RedBlackTreeAlgorithm}!OsSelect@{OsSelect}}
+\index{OsSelect@{OsSelect}!Core.Algorithms.RedBlackTreeAlgorithm@{Core.Algorithms.RedBlackTreeAlgorithm}}
+\doxysubsubsection{\texorpdfstring{OsSelect()}{OsSelect()}}
+{\footnotesize\ttfamily \label{class_core_1_1_algorithms_1_1_red_black_tree_algorithm_afe506d10872208fe6c72b9c0ffd95b16} 
+int? Core.\+Algorithms.\+Red\+Black\+Tree\+Algorithm.\+Os\+Select (\begin{DoxyParamCaption}\item[{int}]{i}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_core_1_1_algorithms_1_1_red_black_tree_algorithm_a8366e0a7130e5011e98c4c3eb2d31830}\index{Core.Algorithms.RedBlackTreeAlgorithm@{Core.Algorithms.RedBlackTreeAlgorithm}!PerformAlgorithm@{PerformAlgorithm}}
+\index{PerformAlgorithm@{PerformAlgorithm}!Core.Algorithms.RedBlackTreeAlgorithm@{Core.Algorithms.RedBlackTreeAlgorithm}}
+\doxysubsubsection{\texorpdfstring{PerformAlgorithm()}{PerformAlgorithm()}}
+{\footnotesize\ttfamily \label{class_core_1_1_algorithms_1_1_red_black_tree_algorithm_a8366e0a7130e5011e98c4c3eb2d31830} 
+override void Core.\+Algorithms.\+Red\+Black\+Tree\+Algorithm.\+Perform\+Algorithm (\begin{DoxyParamCaption}\item[{int\mbox{[}$\,$\mbox{]}}]{data}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+\label{doc-property-members}
+\Hypertarget{class_core_1_1_algorithms_1_1_red_black_tree_algorithm_doc-property-members}
+\doxysubsection{Property Documentation}
+\Hypertarget{class_core_1_1_algorithms_1_1_red_black_tree_algorithm_af3554572b56c0b6278b968ce7af40e5e}\index{Core.Algorithms.RedBlackTreeAlgorithm@{Core.Algorithms.RedBlackTreeAlgorithm}!Complexity@{Complexity}}
+\index{Complexity@{Complexity}!Core.Algorithms.RedBlackTreeAlgorithm@{Core.Algorithms.RedBlackTreeAlgorithm}}
+\doxysubsubsection{\texorpdfstring{Complexity}{Complexity}}
+{\footnotesize\ttfamily \label{class_core_1_1_algorithms_1_1_red_black_tree_algorithm_af3554572b56c0b6278b968ce7af40e5e} 
+override string Core.\+Algorithms.\+Red\+Black\+Tree\+Algorithm.\+Complexity\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Theoretical complexity of the algorithm. 
+
+
+
+Implements \mbox{\hyperlink{interface_core_1_1_algorithms_1_1_i_algorithm_strategy_a1b0bdab06db3ee4078c9f7bb7def9944}{Core.\+Algorithms.\+IAlgorithm\+Strategy}}.
+
+\Hypertarget{class_core_1_1_algorithms_1_1_red_black_tree_algorithm_af5fdf6083444cdcaa073ec3bd2d6768e}\index{Core.Algorithms.RedBlackTreeAlgorithm@{Core.Algorithms.RedBlackTreeAlgorithm}!Name@{Name}}
+\index{Name@{Name}!Core.Algorithms.RedBlackTreeAlgorithm@{Core.Algorithms.RedBlackTreeAlgorithm}}
+\doxysubsubsection{\texorpdfstring{Name}{Name}}
+{\footnotesize\ttfamily \label{class_core_1_1_algorithms_1_1_red_black_tree_algorithm_af5fdf6083444cdcaa073ec3bd2d6768e} 
+override string Core.\+Algorithms.\+Red\+Black\+Tree\+Algorithm.\+Name\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Algorithm name. 
+
+
+
+Implements \mbox{\hyperlink{interface_core_1_1_algorithms_1_1_i_algorithm_strategy_a9815727efe57a4f05de5cfba540dc9bb}{Core.\+Algorithms.\+IAlgorithm\+Strategy}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\+Core/\+Algorithms/\mbox{\hyperlink{_red_black_tree_algorithm_8cs}{Red\+Black\+Tree\+Algorithm.\+cs}}\end{DoxyCompactItemize}

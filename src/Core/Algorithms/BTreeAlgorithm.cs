@@ -4,6 +4,11 @@ using System.Linq;
 
 namespace Core.Algorithms;
 
+/// <summary>
+/// Implementation of a highly branched tree (B-Tree).
+/// Optimized for systems that read and write large blocks of data (simulate disk operation).
+/// Supports automatic splitting of nodes when they are full.
+/// </summary>
 public class BTreeAlgorithm : AlgorithmTemplate
 {
     public override string Name => "B-Tree Insertion";

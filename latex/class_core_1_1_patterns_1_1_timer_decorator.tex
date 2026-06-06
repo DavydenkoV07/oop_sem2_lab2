@@ -1,0 +1,111 @@
+\doxysection{Core.\+Patterns.\+Timer\+Decorator Class Reference}
+\hypertarget{class_core_1_1_patterns_1_1_timer_decorator}{}\label{class_core_1_1_patterns_1_1_timer_decorator}\index{Core.Patterns.TimerDecorator@{Core.Patterns.TimerDecorator}}
+
+
+/// A class that implements the Decorator pattern. Wraps an algorithm to measure its practical execution time, without changing the source code of the algorithm itself.  
+
+
+Inheritance diagram for Core.\+Patterns.\+Timer\+Decorator\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_core_1_1_patterns_1_1_timer_decorator}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_core_1_1_patterns_1_1_timer_decorator_a87fe3da578e7c29e1aba982359e87f9c}{Timer\+Decorator}} (\mbox{\hyperlink{interface_core_1_1_algorithms_1_1_i_algorithm_strategy}{IAlgorithm\+Strategy}} algorithm)
+\item 
+void \mbox{\hyperlink{class_core_1_1_patterns_1_1_timer_decorator_a69633ebe2cb9bf1b99c85203719f67f2}{Execute}} (int\mbox{[}$\,$\mbox{]} data)
+\begin{DoxyCompactList}\small\item\em Executes an algorithm on the passed data array. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+long \mbox{\hyperlink{class_core_1_1_patterns_1_1_timer_decorator_ad9f4b783b0e76854974309a309f0ef92}{Last\+Execution\+Time\+Ms}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+string \mbox{\hyperlink{class_core_1_1_patterns_1_1_timer_decorator_a54ae8290080e45e2f59b148a5a1625fc}{Name}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Algorithm name. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_core_1_1_patterns_1_1_timer_decorator_aeea88f47e7e005302fa3cc5fd791d582}{Complexity}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Theoretical complexity of the algorithm. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+/// A class that implements the Decorator pattern. Wraps an algorithm to measure its practical execution time, without changing the source code of the algorithm itself. 
+
+\label{doc-constructors}
+\Hypertarget{class_core_1_1_patterns_1_1_timer_decorator_doc-constructors}
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_core_1_1_patterns_1_1_timer_decorator_a87fe3da578e7c29e1aba982359e87f9c}\index{Core.Patterns.TimerDecorator@{Core.Patterns.TimerDecorator}!TimerDecorator@{TimerDecorator}}
+\index{TimerDecorator@{TimerDecorator}!Core.Patterns.TimerDecorator@{Core.Patterns.TimerDecorator}}
+\doxysubsubsection{\texorpdfstring{TimerDecorator()}{TimerDecorator()}}
+{\footnotesize\ttfamily \label{class_core_1_1_patterns_1_1_timer_decorator_a87fe3da578e7c29e1aba982359e87f9c} 
+Core.\+Patterns.\+Timer\+Decorator.\+Timer\+Decorator (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interface_core_1_1_algorithms_1_1_i_algorithm_strategy}{IAlgorithm\+Strategy}}}]{algorithm}{}\end{DoxyParamCaption})}
+
+
+
+\label{doc-func-members}
+\Hypertarget{class_core_1_1_patterns_1_1_timer_decorator_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_core_1_1_patterns_1_1_timer_decorator_a69633ebe2cb9bf1b99c85203719f67f2}\index{Core.Patterns.TimerDecorator@{Core.Patterns.TimerDecorator}!Execute@{Execute}}
+\index{Execute@{Execute}!Core.Patterns.TimerDecorator@{Core.Patterns.TimerDecorator}}
+\doxysubsubsection{\texorpdfstring{Execute()}{Execute()}}
+{\footnotesize\ttfamily \label{class_core_1_1_patterns_1_1_timer_decorator_a69633ebe2cb9bf1b99c85203719f67f2} 
+void Core.\+Patterns.\+Timer\+Decorator.\+Execute (\begin{DoxyParamCaption}\item[{int\mbox{[}$\,$\mbox{]}}]{data}{}\end{DoxyParamCaption})}
+
+
+
+Executes an algorithm on the passed data array. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em data} & An array of integers to process.\\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interface_core_1_1_algorithms_1_1_i_algorithm_strategy_af76b076e2ee9095a5cf289a9fbf41b08}{Core.\+Algorithms.\+IAlgorithm\+Strategy}}.
+
+
+
+\label{doc-property-members}
+\Hypertarget{class_core_1_1_patterns_1_1_timer_decorator_doc-property-members}
+\doxysubsection{Property Documentation}
+\Hypertarget{class_core_1_1_patterns_1_1_timer_decorator_aeea88f47e7e005302fa3cc5fd791d582}\index{Core.Patterns.TimerDecorator@{Core.Patterns.TimerDecorator}!Complexity@{Complexity}}
+\index{Complexity@{Complexity}!Core.Patterns.TimerDecorator@{Core.Patterns.TimerDecorator}}
+\doxysubsubsection{\texorpdfstring{Complexity}{Complexity}}
+{\footnotesize\ttfamily \label{class_core_1_1_patterns_1_1_timer_decorator_aeea88f47e7e005302fa3cc5fd791d582} 
+string Core.\+Patterns.\+Timer\+Decorator.\+Complexity\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Theoretical complexity of the algorithm. 
+
+
+
+Implements \mbox{\hyperlink{interface_core_1_1_algorithms_1_1_i_algorithm_strategy_a1b0bdab06db3ee4078c9f7bb7def9944}{Core.\+Algorithms.\+IAlgorithm\+Strategy}}.
+
+\Hypertarget{class_core_1_1_patterns_1_1_timer_decorator_ad9f4b783b0e76854974309a309f0ef92}\index{Core.Patterns.TimerDecorator@{Core.Patterns.TimerDecorator}!LastExecutionTimeMs@{LastExecutionTimeMs}}
+\index{LastExecutionTimeMs@{LastExecutionTimeMs}!Core.Patterns.TimerDecorator@{Core.Patterns.TimerDecorator}}
+\doxysubsubsection{\texorpdfstring{LastExecutionTimeMs}{LastExecutionTimeMs}}
+{\footnotesize\ttfamily \label{class_core_1_1_patterns_1_1_timer_decorator_ad9f4b783b0e76854974309a309f0ef92} 
+long Core.\+Patterns.\+Timer\+Decorator.\+Last\+Execution\+Time\+Ms\hspace{0.3cm}{\ttfamily [get]}}
+
+\Hypertarget{class_core_1_1_patterns_1_1_timer_decorator_a54ae8290080e45e2f59b148a5a1625fc}\index{Core.Patterns.TimerDecorator@{Core.Patterns.TimerDecorator}!Name@{Name}}
+\index{Name@{Name}!Core.Patterns.TimerDecorator@{Core.Patterns.TimerDecorator}}
+\doxysubsubsection{\texorpdfstring{Name}{Name}}
+{\footnotesize\ttfamily \label{class_core_1_1_patterns_1_1_timer_decorator_a54ae8290080e45e2f59b148a5a1625fc} 
+string Core.\+Patterns.\+Timer\+Decorator.\+Name\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Algorithm name. 
+
+
+
+Implements \mbox{\hyperlink{interface_core_1_1_algorithms_1_1_i_algorithm_strategy_a9815727efe57a4f05de5cfba540dc9bb}{Core.\+Algorithms.\+IAlgorithm\+Strategy}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\+Core/\+Patterns/\mbox{\hyperlink{_timer_decorator_8cs}{Timer\+Decorator.\+cs}}\end{DoxyCompactItemize}

@@ -2,6 +2,11 @@ using System;
 
 namespace Core.Algorithms;
 
+/// <summary>
+/// Implementation of a Red-Black Tree, which is a balanced binary search tree.
+/// Additionally extended to an Order-Statistic Tree,
+/// which allows finding an element by its rank and the rank of a specific element.
+/// </summary>
 public class RedBlackTreeAlgorithm : AlgorithmTemplate
 {
     public override string Name => "Red-Black Tree (Order Statistic)";

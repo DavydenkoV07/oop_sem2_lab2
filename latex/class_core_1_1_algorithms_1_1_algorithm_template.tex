@@ -1,0 +1,110 @@
+\doxysection{Core.\+Algorithms.\+Algorithm\+Template Class Reference}
+\hypertarget{class_core_1_1_algorithms_1_1_algorithm_template}{}\label{class_core_1_1_algorithms_1_1_algorithm_template}\index{Core.Algorithms.AlgorithmTemplate@{Core.Algorithms.AlgorithmTemplate}}
+
+
+A base abstract class that implements the Template Method pattern. Defines the general skeleton of algorithm execution with prior data validation.  
+
+
+Inheritance diagram for Core.\+Algorithms.\+Algorithm\+Template\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.014389cm]{class_core_1_1_algorithms_1_1_algorithm_template}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_core_1_1_algorithms_1_1_algorithm_template_a98808863a703686084dbc051bf81b12a}{Execute}} (int\mbox{[}$\,$\mbox{]} data)
+\begin{DoxyCompactList}\small\item\em A template method that calls validation and then directly the algorithm logic. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_core_1_1_algorithms_1_1_algorithm_template_a02f4480e07e2967f174cc2100f0461e6}{Perform\+Algorithm}} (int\mbox{[}$\,$\mbox{]} data)
+\begin{DoxyCompactList}\small\item\em An abstract method that specific classes of algorithms must implement. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{class_core_1_1_algorithms_1_1_algorithm_template_aadd718a3bb59259b594868bc9bcf8fdf}{Name}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Algorithm name. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_core_1_1_algorithms_1_1_algorithm_template_a9a1b9da5b41e09ad19dac301663e93cb}{Complexity}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Theoretical complexity of the algorithm. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+A base abstract class that implements the Template Method pattern. Defines the general skeleton of algorithm execution with prior data validation. 
+
+\label{doc-func-members}
+\Hypertarget{class_core_1_1_algorithms_1_1_algorithm_template_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_core_1_1_algorithms_1_1_algorithm_template_a98808863a703686084dbc051bf81b12a}\index{Core.Algorithms.AlgorithmTemplate@{Core.Algorithms.AlgorithmTemplate}!Execute@{Execute}}
+\index{Execute@{Execute}!Core.Algorithms.AlgorithmTemplate@{Core.Algorithms.AlgorithmTemplate}}
+\doxysubsubsection{\texorpdfstring{Execute()}{Execute()}}
+{\footnotesize\ttfamily \label{class_core_1_1_algorithms_1_1_algorithm_template_a98808863a703686084dbc051bf81b12a} 
+void Core.\+Algorithms.\+Algorithm\+Template.\+Execute (\begin{DoxyParamCaption}\item[{int\mbox{[}$\,$\mbox{]}}]{data}{}\end{DoxyParamCaption})}
+
+
+
+A template method that calls validation and then directly the algorithm logic. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em data} & Input data array.\\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interface_core_1_1_algorithms_1_1_i_algorithm_strategy_af76b076e2ee9095a5cf289a9fbf41b08}{Core.\+Algorithms.\+IAlgorithm\+Strategy}}.
+
+\Hypertarget{class_core_1_1_algorithms_1_1_algorithm_template_a02f4480e07e2967f174cc2100f0461e6}\index{Core.Algorithms.AlgorithmTemplate@{Core.Algorithms.AlgorithmTemplate}!PerformAlgorithm@{PerformAlgorithm}}
+\index{PerformAlgorithm@{PerformAlgorithm}!Core.Algorithms.AlgorithmTemplate@{Core.Algorithms.AlgorithmTemplate}}
+\doxysubsubsection{\texorpdfstring{PerformAlgorithm()}{PerformAlgorithm()}}
+{\footnotesize\ttfamily \label{class_core_1_1_algorithms_1_1_algorithm_template_a02f4480e07e2967f174cc2100f0461e6} 
+void Core.\+Algorithms.\+Algorithm\+Template.\+Perform\+Algorithm (\begin{DoxyParamCaption}\item[{int\mbox{[}$\,$\mbox{]}}]{data}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [abstract]}, {\ttfamily [protected]}}
+
+
+
+An abstract method that specific classes of algorithms must implement. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em data} & Input data array.\\
+\hline
+\end{DoxyParams}
+
+
+\label{doc-property-members}
+\Hypertarget{class_core_1_1_algorithms_1_1_algorithm_template_doc-property-members}
+\doxysubsection{Property Documentation}
+\Hypertarget{class_core_1_1_algorithms_1_1_algorithm_template_a9a1b9da5b41e09ad19dac301663e93cb}\index{Core.Algorithms.AlgorithmTemplate@{Core.Algorithms.AlgorithmTemplate}!Complexity@{Complexity}}
+\index{Complexity@{Complexity}!Core.Algorithms.AlgorithmTemplate@{Core.Algorithms.AlgorithmTemplate}}
+\doxysubsubsection{\texorpdfstring{Complexity}{Complexity}}
+{\footnotesize\ttfamily \label{class_core_1_1_algorithms_1_1_algorithm_template_a9a1b9da5b41e09ad19dac301663e93cb} 
+string Core.\+Algorithms.\+Algorithm\+Template.\+Complexity\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [abstract]}}
+
+
+
+Theoretical complexity of the algorithm. 
+
+
+
+Implements \mbox{\hyperlink{interface_core_1_1_algorithms_1_1_i_algorithm_strategy_a1b0bdab06db3ee4078c9f7bb7def9944}{Core.\+Algorithms.\+IAlgorithm\+Strategy}}.
+
+\Hypertarget{class_core_1_1_algorithms_1_1_algorithm_template_aadd718a3bb59259b594868bc9bcf8fdf}\index{Core.Algorithms.AlgorithmTemplate@{Core.Algorithms.AlgorithmTemplate}!Name@{Name}}
+\index{Name@{Name}!Core.Algorithms.AlgorithmTemplate@{Core.Algorithms.AlgorithmTemplate}}
+\doxysubsubsection{\texorpdfstring{Name}{Name}}
+{\footnotesize\ttfamily \label{class_core_1_1_algorithms_1_1_algorithm_template_aadd718a3bb59259b594868bc9bcf8fdf} 
+string Core.\+Algorithms.\+Algorithm\+Template.\+Name\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [abstract]}}
+
+
+
+Algorithm name. 
+
+
+
+Implements \mbox{\hyperlink{interface_core_1_1_algorithms_1_1_i_algorithm_strategy_a9815727efe57a4f05de5cfba540dc9bb}{Core.\+Algorithms.\+IAlgorithm\+Strategy}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\+Core/\+Algorithms/\mbox{\hyperlink{_algorithm_template_8cs}{Algorithm\+Template.\+cs}}\end{DoxyCompactItemize}

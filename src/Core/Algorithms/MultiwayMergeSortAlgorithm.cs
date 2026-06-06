@@ -4,6 +4,11 @@ using System.Linq;
 
 namespace Core.Algorithms;
 
+/// <summary>
+/// Implementation of the Multiway Merge Sort algorithm.
+/// Uses dividing the array into K parts and then merging them
+/// using the PriorityQueue data structure (Minimum Heap).
+/// </summary>
 public class MultiwayMergeSortAlgorithm : AlgorithmTemplate
 {
     public override string Name => "Multiway Merge Sort";

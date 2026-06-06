@@ -1,0 +1,90 @@
+\doxysection{Core.\+Algorithms.\+IAlgorithm\+Strategy Interface Reference}
+\hypertarget{interface_core_1_1_algorithms_1_1_i_algorithm_strategy}{}\label{interface_core_1_1_algorithms_1_1_i_algorithm_strategy}\index{Core.Algorithms.IAlgorithmStrategy@{Core.Algorithms.IAlgorithmStrategy}}
+
+
+An interface for implementing the Strategy pattern. Provides a single contract for all algorithms in the system.  
+
+
+Inheritance diagram for Core.\+Algorithms.\+IAlgorithm\+Strategy\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.014389cm]{interface_core_1_1_algorithms_1_1_i_algorithm_strategy}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{interface_core_1_1_algorithms_1_1_i_algorithm_strategy_af76b076e2ee9095a5cf289a9fbf41b08}{Execute}} (int\mbox{[}$\,$\mbox{]} data)
+\begin{DoxyCompactList}\small\item\em Executes an algorithm on the passed data array. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{interface_core_1_1_algorithms_1_1_i_algorithm_strategy_a9815727efe57a4f05de5cfba540dc9bb}{Name}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Algorithm name. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{interface_core_1_1_algorithms_1_1_i_algorithm_strategy_a1b0bdab06db3ee4078c9f7bb7def9944}{Complexity}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Theoretical complexity of the algorithm. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+An interface for implementing the Strategy pattern. Provides a single contract for all algorithms in the system. 
+
+\label{doc-func-members}
+\Hypertarget{interface_core_1_1_algorithms_1_1_i_algorithm_strategy_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{interface_core_1_1_algorithms_1_1_i_algorithm_strategy_af76b076e2ee9095a5cf289a9fbf41b08}\index{Core.Algorithms.IAlgorithmStrategy@{Core.Algorithms.IAlgorithmStrategy}!Execute@{Execute}}
+\index{Execute@{Execute}!Core.Algorithms.IAlgorithmStrategy@{Core.Algorithms.IAlgorithmStrategy}}
+\doxysubsubsection{\texorpdfstring{Execute()}{Execute()}}
+{\footnotesize\ttfamily \label{interface_core_1_1_algorithms_1_1_i_algorithm_strategy_af76b076e2ee9095a5cf289a9fbf41b08} 
+void Core.\+Algorithms.\+IAlgorithm\+Strategy.\+Execute (\begin{DoxyParamCaption}\item[{int\mbox{[}$\,$\mbox{]}}]{data}{}\end{DoxyParamCaption})}
+
+
+
+Executes an algorithm on the passed data array. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em data} & An array of integers to process.\\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{class_core_1_1_algorithms_1_1_algorithm_template_a98808863a703686084dbc051bf81b12a}{Core.\+Algorithms.\+Algorithm\+Template}}, and \mbox{\hyperlink{class_core_1_1_patterns_1_1_timer_decorator_a69633ebe2cb9bf1b99c85203719f67f2}{Core.\+Patterns.\+Timer\+Decorator}}.
+
+
+
+\label{doc-property-members}
+\Hypertarget{interface_core_1_1_algorithms_1_1_i_algorithm_strategy_doc-property-members}
+\doxysubsection{Property Documentation}
+\Hypertarget{interface_core_1_1_algorithms_1_1_i_algorithm_strategy_a1b0bdab06db3ee4078c9f7bb7def9944}\index{Core.Algorithms.IAlgorithmStrategy@{Core.Algorithms.IAlgorithmStrategy}!Complexity@{Complexity}}
+\index{Complexity@{Complexity}!Core.Algorithms.IAlgorithmStrategy@{Core.Algorithms.IAlgorithmStrategy}}
+\doxysubsubsection{\texorpdfstring{Complexity}{Complexity}}
+{\footnotesize\ttfamily \label{interface_core_1_1_algorithms_1_1_i_algorithm_strategy_a1b0bdab06db3ee4078c9f7bb7def9944} 
+string Core.\+Algorithms.\+IAlgorithm\+Strategy.\+Complexity\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Theoretical complexity of the algorithm. 
+
+
+
+Implemented in \mbox{\hyperlink{class_core_1_1_algorithms_1_1_algorithm_template_a9a1b9da5b41e09ad19dac301663e93cb}{Core.\+Algorithms.\+Algorithm\+Template}}, \mbox{\hyperlink{class_core_1_1_algorithms_1_1_b_tree_algorithm_aff5dca1cd9760f394a7be788673c7403}{Core.\+Algorithms.\+BTree\+Algorithm}}, \mbox{\hyperlink{class_core_1_1_algorithms_1_1_multiway_merge_sort_algorithm_af1d19abfa515d0347d38d6d22bb32490}{Core.\+Algorithms.\+Multiway\+Merge\+Sort\+Algorithm}}, \mbox{\hyperlink{class_core_1_1_algorithms_1_1_red_black_tree_algorithm_af3554572b56c0b6278b968ce7af40e5e}{Core.\+Algorithms.\+Red\+Black\+Tree\+Algorithm}}, and \mbox{\hyperlink{class_core_1_1_patterns_1_1_timer_decorator_aeea88f47e7e005302fa3cc5fd791d582}{Core.\+Patterns.\+Timer\+Decorator}}.
+
+\Hypertarget{interface_core_1_1_algorithms_1_1_i_algorithm_strategy_a9815727efe57a4f05de5cfba540dc9bb}\index{Core.Algorithms.IAlgorithmStrategy@{Core.Algorithms.IAlgorithmStrategy}!Name@{Name}}
+\index{Name@{Name}!Core.Algorithms.IAlgorithmStrategy@{Core.Algorithms.IAlgorithmStrategy}}
+\doxysubsubsection{\texorpdfstring{Name}{Name}}
+{\footnotesize\ttfamily \label{interface_core_1_1_algorithms_1_1_i_algorithm_strategy_a9815727efe57a4f05de5cfba540dc9bb} 
+string Core.\+Algorithms.\+IAlgorithm\+Strategy.\+Name\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Algorithm name. 
+
+
+
+Implemented in \mbox{\hyperlink{class_core_1_1_algorithms_1_1_algorithm_template_aadd718a3bb59259b594868bc9bcf8fdf}{Core.\+Algorithms.\+Algorithm\+Template}}, \mbox{\hyperlink{class_core_1_1_algorithms_1_1_b_tree_algorithm_a4582fb8c254350816fdaaa35ef6ac44b}{Core.\+Algorithms.\+BTree\+Algorithm}}, \mbox{\hyperlink{class_core_1_1_algorithms_1_1_multiway_merge_sort_algorithm_a0e02e90c55ed917eb6540d26d8040246}{Core.\+Algorithms.\+Multiway\+Merge\+Sort\+Algorithm}}, \mbox{\hyperlink{class_core_1_1_algorithms_1_1_red_black_tree_algorithm_af5fdf6083444cdcaa073ec3bd2d6768e}{Core.\+Algorithms.\+Red\+Black\+Tree\+Algorithm}}, and \mbox{\hyperlink{class_core_1_1_patterns_1_1_timer_decorator_a54ae8290080e45e2f59b148a5a1625fc}{Core.\+Patterns.\+Timer\+Decorator}}.
+
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\+Core/\+Algorithms/\mbox{\hyperlink{_i_algorithm_strategy_8cs}{IAlgorithm\+Strategy.\+cs}}\end{DoxyCompactItemize}

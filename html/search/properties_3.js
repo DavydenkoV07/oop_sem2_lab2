@@ -1,0 +1,4 @@
+var searchData=
+[
+  ['name_0',['Name',['../class_core_1_1_algorithms_1_1_algorithm_template.html#aadd718a3bb59259b594868bc9bcf8fdf',1,'Core.Algorithms.AlgorithmTemplate.Name'],['../class_core_1_1_algorithms_1_1_b_tree_algorithm.html#a4582fb8c254350816fdaaa35ef6ac44b',1,'Core.Algorithms.BTreeAlgorithm.Name'],['../interface_core_1_1_algorithms_1_1_i_algorithm_strategy.html#a9815727efe57a4f05de5cfba540dc9bb',1,'Core.Algorithms.IAlgorithmStrategy.Name'],['../class_core_1_1_algorithms_1_1_multiway_merge_sort_algorithm.html#a0e02e90c55ed917eb6540d26d8040246',1,'Core.Algorithms.MultiwayMergeSortAlgorithm.Name'],['../class_core_1_1_algorithms_1_1_red_black_tree_algorithm.html#af5fdf6083444cdcaa073ec3bd2d6768e',1,'Core.Algorithms.RedBlackTreeAlgorithm.Name'],['../class_core_1_1_patterns_1_1_timer_decorator.html#a54ae8290080e45e2f59b148a5a1625fc',1,'Core.Patterns.TimerDecorator.Name']]]
+];

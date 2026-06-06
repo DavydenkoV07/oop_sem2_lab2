@@ -3,6 +3,11 @@ using Core.Algorithms;
 
 namespace Core.Patterns;
 
+/// <summary>
+/// /// A class that implements the Decorator pattern.
+/// Wraps an algorithm to measure its practical execution time,
+/// without changing the source code of the algorithm itself.
+/// </summary>
 public class TimerDecorator : IAlgorithmStrategy
 {
     private readonly IAlgorithmStrategy _algorithm;

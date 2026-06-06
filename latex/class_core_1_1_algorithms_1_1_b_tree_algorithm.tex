@@ -1,0 +1,118 @@
+\doxysection{Core.\+Algorithms.\+BTree\+Algorithm Class Reference}
+\hypertarget{class_core_1_1_algorithms_1_1_b_tree_algorithm}{}\label{class_core_1_1_algorithms_1_1_b_tree_algorithm}\index{Core.Algorithms.BTreeAlgorithm@{Core.Algorithms.BTreeAlgorithm}}
+
+
+Implementation of a highly branched tree (B-\/\+Tree). Optimized for systems that read and write large blocks of data (simulate disk operation). Supports automatic splitting of nodes when they are full.  
+
+
+Inheritance diagram for Core.\+Algorithms.\+BTree\+Algorithm\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_core_1_1_algorithms_1_1_b_tree_algorithm}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_core_1_1_algorithms_1_1_b_tree_algorithm_a7644b20335943b406241a4382fdf8ecc}{BTree\+Algorithm}} ()
+\item 
+void \mbox{\hyperlink{class_core_1_1_algorithms_1_1_b_tree_algorithm_af275658c36b0722e509d8024b6d4b754}{Delete\+Key}} (int x\+Id, int k)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{class_core_1_1_algorithms_1_1_algorithm_template}{Core.\+Algorithms.\+Algorithm\+Template}}}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_core_1_1_algorithms_1_1_algorithm_template_a98808863a703686084dbc051bf81b12a}{Execute}} (int\mbox{[}$\,$\mbox{]} data)
+\begin{DoxyCompactList}\small\item\em A template method that calls validation and then directly the algorithm logic. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+override void \mbox{\hyperlink{class_core_1_1_algorithms_1_1_b_tree_algorithm_aa8a1c89b8274aeb8d4ccf7e4dd396fae}{Perform\+Algorithm}} (int\mbox{[}$\,$\mbox{]} data)
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions inherited from \mbox{\hyperlink{class_core_1_1_algorithms_1_1_algorithm_template}{Core.\+Algorithms.\+Algorithm\+Template}}}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_core_1_1_algorithms_1_1_algorithm_template_a02f4480e07e2967f174cc2100f0461e6}{Perform\+Algorithm}} (int\mbox{[}$\,$\mbox{]} data)
+\begin{DoxyCompactList}\small\item\em An abstract method that specific classes of algorithms must implement. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+override string \mbox{\hyperlink{class_core_1_1_algorithms_1_1_b_tree_algorithm_a4582fb8c254350816fdaaa35ef6ac44b}{Name}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Algorithm name. \end{DoxyCompactList}\item 
+override string \mbox{\hyperlink{class_core_1_1_algorithms_1_1_b_tree_algorithm_aff5dca1cd9760f394a7be788673c7403}{Complexity}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Theoretical complexity of the algorithm. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Properties inherited from \mbox{\hyperlink{class_core_1_1_algorithms_1_1_algorithm_template}{Core.\+Algorithms.\+Algorithm\+Template}}}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{class_core_1_1_algorithms_1_1_algorithm_template_aadd718a3bb59259b594868bc9bcf8fdf}{Name}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Algorithm name. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_core_1_1_algorithms_1_1_algorithm_template_a9a1b9da5b41e09ad19dac301663e93cb}{Complexity}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Theoretical complexity of the algorithm. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Implementation of a highly branched tree (B-\/\+Tree). Optimized for systems that read and write large blocks of data (simulate disk operation). Supports automatic splitting of nodes when they are full. 
+
+\label{doc-constructors}
+\Hypertarget{class_core_1_1_algorithms_1_1_b_tree_algorithm_doc-constructors}
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_core_1_1_algorithms_1_1_b_tree_algorithm_a7644b20335943b406241a4382fdf8ecc}\index{Core.Algorithms.BTreeAlgorithm@{Core.Algorithms.BTreeAlgorithm}!BTreeAlgorithm@{BTreeAlgorithm}}
+\index{BTreeAlgorithm@{BTreeAlgorithm}!Core.Algorithms.BTreeAlgorithm@{Core.Algorithms.BTreeAlgorithm}}
+\doxysubsubsection{\texorpdfstring{BTreeAlgorithm()}{BTreeAlgorithm()}}
+{\footnotesize\ttfamily \label{class_core_1_1_algorithms_1_1_b_tree_algorithm_a7644b20335943b406241a4382fdf8ecc} 
+Core.\+Algorithms.\+BTree\+Algorithm.\+BTree\+Algorithm (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+\label{doc-func-members}
+\Hypertarget{class_core_1_1_algorithms_1_1_b_tree_algorithm_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_core_1_1_algorithms_1_1_b_tree_algorithm_af275658c36b0722e509d8024b6d4b754}\index{Core.Algorithms.BTreeAlgorithm@{Core.Algorithms.BTreeAlgorithm}!DeleteKey@{DeleteKey}}
+\index{DeleteKey@{DeleteKey}!Core.Algorithms.BTreeAlgorithm@{Core.Algorithms.BTreeAlgorithm}}
+\doxysubsubsection{\texorpdfstring{DeleteKey()}{DeleteKey()}}
+{\footnotesize\ttfamily \label{class_core_1_1_algorithms_1_1_b_tree_algorithm_af275658c36b0722e509d8024b6d4b754} 
+void Core.\+Algorithms.\+BTree\+Algorithm.\+Delete\+Key (\begin{DoxyParamCaption}\item[{int}]{x\+Id}{, }\item[{int}]{k}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_core_1_1_algorithms_1_1_b_tree_algorithm_aa8a1c89b8274aeb8d4ccf7e4dd396fae}\index{Core.Algorithms.BTreeAlgorithm@{Core.Algorithms.BTreeAlgorithm}!PerformAlgorithm@{PerformAlgorithm}}
+\index{PerformAlgorithm@{PerformAlgorithm}!Core.Algorithms.BTreeAlgorithm@{Core.Algorithms.BTreeAlgorithm}}
+\doxysubsubsection{\texorpdfstring{PerformAlgorithm()}{PerformAlgorithm()}}
+{\footnotesize\ttfamily \label{class_core_1_1_algorithms_1_1_b_tree_algorithm_aa8a1c89b8274aeb8d4ccf7e4dd396fae} 
+override void Core.\+Algorithms.\+BTree\+Algorithm.\+Perform\+Algorithm (\begin{DoxyParamCaption}\item[{int\mbox{[}$\,$\mbox{]}}]{data}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+\label{doc-property-members}
+\Hypertarget{class_core_1_1_algorithms_1_1_b_tree_algorithm_doc-property-members}
+\doxysubsection{Property Documentation}
+\Hypertarget{class_core_1_1_algorithms_1_1_b_tree_algorithm_aff5dca1cd9760f394a7be788673c7403}\index{Core.Algorithms.BTreeAlgorithm@{Core.Algorithms.BTreeAlgorithm}!Complexity@{Complexity}}
+\index{Complexity@{Complexity}!Core.Algorithms.BTreeAlgorithm@{Core.Algorithms.BTreeAlgorithm}}
+\doxysubsubsection{\texorpdfstring{Complexity}{Complexity}}
+{\footnotesize\ttfamily \label{class_core_1_1_algorithms_1_1_b_tree_algorithm_aff5dca1cd9760f394a7be788673c7403} 
+override string Core.\+Algorithms.\+BTree\+Algorithm.\+Complexity\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Theoretical complexity of the algorithm. 
+
+
+
+Implements \mbox{\hyperlink{interface_core_1_1_algorithms_1_1_i_algorithm_strategy_a1b0bdab06db3ee4078c9f7bb7def9944}{Core.\+Algorithms.\+IAlgorithm\+Strategy}}.
+
+\Hypertarget{class_core_1_1_algorithms_1_1_b_tree_algorithm_a4582fb8c254350816fdaaa35ef6ac44b}\index{Core.Algorithms.BTreeAlgorithm@{Core.Algorithms.BTreeAlgorithm}!Name@{Name}}
+\index{Name@{Name}!Core.Algorithms.BTreeAlgorithm@{Core.Algorithms.BTreeAlgorithm}}
+\doxysubsubsection{\texorpdfstring{Name}{Name}}
+{\footnotesize\ttfamily \label{class_core_1_1_algorithms_1_1_b_tree_algorithm_a4582fb8c254350816fdaaa35ef6ac44b} 
+override string Core.\+Algorithms.\+BTree\+Algorithm.\+Name\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Algorithm name. 
+
+
+
+Implements \mbox{\hyperlink{interface_core_1_1_algorithms_1_1_i_algorithm_strategy_a9815727efe57a4f05de5cfba540dc9bb}{Core.\+Algorithms.\+IAlgorithm\+Strategy}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\+Core/\+Algorithms/\mbox{\hyperlink{_b_tree_algorithm_8cs}{BTree\+Algorithm.\+cs}}\end{DoxyCompactItemize}

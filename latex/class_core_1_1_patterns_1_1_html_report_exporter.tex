@@ -1,0 +1,79 @@
+\doxysection{Core.\+Patterns.\+Html\+Report\+Exporter Class Reference}
+\hypertarget{class_core_1_1_patterns_1_1_html_report_exporter}{}\label{class_core_1_1_patterns_1_1_html_report_exporter}\index{Core.Patterns.HtmlReportExporter@{Core.Patterns.HtmlReportExporter}}
+
+
+A class that implements the Singleton pattern. Responsible for accumulating test results and generating the final HTML report. Guarantees that there is only one instance of the report generator in the system.  
+
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_core_1_1_patterns_1_1_html_report_exporter_a8b803b0574ac9bd06c58828adb0f10af}{Add\+Result}} (string algorithm\+Name, int elements\+Count, string complexity, long time\+Ms)
+\begin{DoxyCompactList}\small\item\em Adds a new line with the results of the algorithm execution to a future report. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_core_1_1_patterns_1_1_html_report_exporter_a795ff4a9d93c767f7cbcf0f77053020f}{Save\+To\+File}} (string file\+Path)
+\begin{DoxyCompactList}\small\item\em Generates an HTML document using Bootstrap 5 and saves it to a file. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_core_1_1_patterns_1_1_html_report_exporter}{Html\+Report\+Exporter}} \mbox{\hyperlink{class_core_1_1_patterns_1_1_html_report_exporter_aa81c75d9418384ad1ef4344969b79eaf}{Instance}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+A class that implements the Singleton pattern. Responsible for accumulating test results and generating the final HTML report. Guarantees that there is only one instance of the report generator in the system. 
+
+\label{doc-func-members}
+\Hypertarget{class_core_1_1_patterns_1_1_html_report_exporter_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_core_1_1_patterns_1_1_html_report_exporter_a8b803b0574ac9bd06c58828adb0f10af}\index{Core.Patterns.HtmlReportExporter@{Core.Patterns.HtmlReportExporter}!AddResult@{AddResult}}
+\index{AddResult@{AddResult}!Core.Patterns.HtmlReportExporter@{Core.Patterns.HtmlReportExporter}}
+\doxysubsubsection{\texorpdfstring{AddResult()}{AddResult()}}
+{\footnotesize\ttfamily \label{class_core_1_1_patterns_1_1_html_report_exporter_a8b803b0574ac9bd06c58828adb0f10af} 
+void Core.\+Patterns.\+Html\+Report\+Exporter.\+Add\+Result (\begin{DoxyParamCaption}\item[{string}]{algorithm\+Name}{, }\item[{int}]{elements\+Count}{, }\item[{string}]{complexity}{, }\item[{long}]{time\+Ms}{}\end{DoxyParamCaption})}
+
+
+
+Adds a new line with the results of the algorithm execution to a future report. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em algorithm\+Name} & Name of the algorithm.\\
+\hline
+{\em elements\+Count} & Number of elements in array\\
+\hline
+{\em complexity} & Theoretical complexity\\
+\hline
+{\em time\+Ms} & Execution time in milliseconds.\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_core_1_1_patterns_1_1_html_report_exporter_a795ff4a9d93c767f7cbcf0f77053020f}\index{Core.Patterns.HtmlReportExporter@{Core.Patterns.HtmlReportExporter}!SaveToFile@{SaveToFile}}
+\index{SaveToFile@{SaveToFile}!Core.Patterns.HtmlReportExporter@{Core.Patterns.HtmlReportExporter}}
+\doxysubsubsection{\texorpdfstring{SaveToFile()}{SaveToFile()}}
+{\footnotesize\ttfamily \label{class_core_1_1_patterns_1_1_html_report_exporter_a795ff4a9d93c767f7cbcf0f77053020f} 
+void Core.\+Patterns.\+Html\+Report\+Exporter.\+Save\+To\+File (\begin{DoxyParamCaption}\item[{string}]{file\+Path}{}\end{DoxyParamCaption})}
+
+
+
+Generates an HTML document using Bootstrap 5 and saves it to a file. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em file\+Path} & The path to the file where the report will be saved.\\
+\hline
+\end{DoxyParams}
+
+
+\label{doc-property-members}
+\Hypertarget{class_core_1_1_patterns_1_1_html_report_exporter_doc-property-members}
+\doxysubsection{Property Documentation}
+\Hypertarget{class_core_1_1_patterns_1_1_html_report_exporter_aa81c75d9418384ad1ef4344969b79eaf}\index{Core.Patterns.HtmlReportExporter@{Core.Patterns.HtmlReportExporter}!Instance@{Instance}}
+\index{Instance@{Instance}!Core.Patterns.HtmlReportExporter@{Core.Patterns.HtmlReportExporter}}
+\doxysubsubsection{\texorpdfstring{Instance}{Instance}}
+{\footnotesize\ttfamily \label{class_core_1_1_patterns_1_1_html_report_exporter_aa81c75d9418384ad1ef4344969b79eaf} 
+\mbox{\hyperlink{class_core_1_1_patterns_1_1_html_report_exporter}{Html\+Report\+Exporter}} Core.\+Patterns.\+Html\+Report\+Exporter.\+Instance\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [get]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\+Core/\+Patterns/\mbox{\hyperlink{_html_report_exporter_8cs}{Html\+Report\+Exporter.\+cs}}\end{DoxyCompactItemize}

@@ -2,12 +2,17 @@ using System.Text;
 
 namespace Core.Patterns;
 
+/// <summary>
+/// A class that implements the Singleton pattern.
+/// Responsible for accumulating test results and generating the final HTML report.
+/// Guarantees that there is only one instance of the report generator in the system.
+/// </summary>
 public class HtmlReportExporter
 {
     private static HtmlReportExporter? _instance;
     private readonly StringBuilder _tableRows;
 
-    // Приватний конструктор — ключова фішка Singleton
+    
     private HtmlReportExporter()
     {
         _tableRows = new StringBuilder();
@@ -15,7 +20,13 @@ public class HtmlReportExporter
 
     public static HtmlReportExporter Instance => _instance ??= new HtmlReportExporter();
 
-    // Додаємо рядок з результатом
+    /// <summary>
+    /// Adds a new line with the results of the algorithm execution to a future report.
+    /// </summary>
+    /// <param name="algorithmName">Name of the algorithm.</param>
+    /// <param name="elementsCount">Number of elements in array</param>
+    /// <param name="complexity">Theoretical complexity</param>
+    /// <param name="timeMs">Execution time in milliseconds.</param>
     public void AddResult(string algorithmName, int elementsCount, string complexity, long timeMs)
     {
         _tableRows.AppendLine($@"
@@ -27,7 +38,10 @@ public class HtmlReportExporter
             </tr>");
     }
 
-    // Генеруємо фінальний файл
+    /// <summary>
+    /// Generates an HTML document using Bootstrap 5 and saves it to a file.
+    /// </summary>
+    /// <param name="filePath">The path to the file where the report will be saved.</param>
     public void SaveToFile(string filePath)
     {
         string html = $@"

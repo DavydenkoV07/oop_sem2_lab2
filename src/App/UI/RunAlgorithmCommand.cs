@@ -3,6 +3,11 @@ using Core.Algorithms;
 
 namespace App.UI;
 
+/// <summary>
+/// Command to run a specific algorithm.
+/// Generates test data, calls the algorithm factory, wraps it in a time decorator
+/// and passes the results to the Singleton exporter. 
+/// </summary>
 public class RunAlgorithmCommand : ICommand
 {
     private readonly string _algorithmType;

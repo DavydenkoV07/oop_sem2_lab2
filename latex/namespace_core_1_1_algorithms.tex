@@ -1,0 +1,15 @@
+\doxysection{Core.\+Algorithms Namespace Reference}
+\hypertarget{namespace_core_1_1_algorithms}{}\label{namespace_core_1_1_algorithms}\index{Core.Algorithms@{Core.Algorithms}}
+\doxysubsubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{class_core_1_1_algorithms_1_1_algorithm_template}{Algorithm\+Template}}
+\begin{DoxyCompactList}\small\item\em A base abstract class that implements the Template Method pattern. Defines the general skeleton of algorithm execution with prior data validation. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{class_core_1_1_algorithms_1_1_b_tree_algorithm}{BTree\+Algorithm}}
+\begin{DoxyCompactList}\small\item\em Implementation of a highly branched tree (B-\/\+Tree). Optimized for systems that read and write large blocks of data (simulate disk operation). Supports automatic splitting of nodes when they are full. \end{DoxyCompactList}\item 
+interface \mbox{\hyperlink{interface_core_1_1_algorithms_1_1_i_algorithm_strategy}{IAlgorithm\+Strategy}}
+\begin{DoxyCompactList}\small\item\em An interface for implementing the Strategy pattern. Provides a single contract for all algorithms in the system. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{class_core_1_1_algorithms_1_1_multiway_merge_sort_algorithm}{Multiway\+Merge\+Sort\+Algorithm}}
+\begin{DoxyCompactList}\small\item\em Implementation of the Multiway Merge Sort algorithm. Uses dividing the array into K parts and then merging them using the Priority\+Queue data structure (Minimum Heap). \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{class_core_1_1_algorithms_1_1_red_black_tree_algorithm}{Red\+Black\+Tree\+Algorithm}}
+\begin{DoxyCompactList}\small\item\em Implementation of a Red-\/\+Black Tree, which is a balanced binary search tree. Additionally extended to an Order-\/\+Statistic Tree, which allows finding an element by its rank and the rank of a specific element. \end{DoxyCompactList}\end{DoxyCompactItemize}
