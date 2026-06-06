@@ -1,5 +1,6 @@
 var hierarchy =
 [
+    [ "Core.Patterns.AlgorithmFacade", "class_core_1_1_patterns_1_1_algorithm_facade.html", null ],
     [ "Core.Patterns.HtmlReportExporter", "class_core_1_1_patterns_1_1_html_report_exporter.html", null ],
     [ "Core.Algorithms.IAlgorithmStrategy", "interface_core_1_1_algorithms_1_1_i_algorithm_strategy.html", [
       [ "Core.Algorithms.AlgorithmTemplate", "class_core_1_1_algorithms_1_1_algorithm_template.html", [
