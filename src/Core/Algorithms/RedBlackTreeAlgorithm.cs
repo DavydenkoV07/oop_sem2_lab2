@@ -9,7 +9,7 @@ public class RedBlackTreeAlgorithm : AlgorithmTemplate
 
     private Node? _root;
 
-    // Внутрішні структури з вашого C++ коду
+    
     private enum NodeColor { Red, Black }
 
     private class Node
