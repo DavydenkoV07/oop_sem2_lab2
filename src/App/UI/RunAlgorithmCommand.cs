@@ -28,16 +28,9 @@ public class RunAlgorithmCommand : ICommand
         // Генеруємо випадкові дані
         int[] data = GenerateRandomData(_dataSize);
         
-        // Використовуємо Фабрику та Декоратор
-        IAlgorithmStrategy algo = AlgorithmFactory.Create(_algorithmType);
-        TimerDecorator timer = new TimerDecorator(algo);
         
-        timer.Execute(data);
-        
-        Console.WriteLine($"[Успіх] Час виконання: {timer.LastExecutionTimeMs} мс. Складність: {timer.Complexity}");
-        
-        // Записуємо результат у Singleton
-        HtmlReportExporter.Instance.AddResult(timer.Name, _dataSize, timer.Complexity, timer.LastExecutionTimeMs);
+        var facade = new AlgorithmFacade();
+        facade.RunAndLogAlgorithm(_algorithmType, data);
     }
 
     private int[] GenerateRandomData(int size)
