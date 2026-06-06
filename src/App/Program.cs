@@ -10,7 +10,7 @@ class Program
             { "1", new RunAlgorithmCommand("rbtree", 50000, "Вставка в Red-Black Tree") },
             { "2", new RunAlgorithmCommand("btree", 50000, "Вставка в B-Tree") },
             { "3", new RunAlgorithmCommand("multiway", 50000, "Multiway Merge Sort") },
-            // Сюди додамо команду збереження HTML
+            { "4", new SaveReportCommand() }
         };
 
         while (true)

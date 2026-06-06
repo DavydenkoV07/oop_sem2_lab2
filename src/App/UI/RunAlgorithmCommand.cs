@@ -31,7 +31,8 @@ public class RunAlgorithmCommand : ICommand
         
         Console.WriteLine($"[Успіх] Час виконання: {timer.LastExecutionTimeMs} мс. Складність: {timer.Complexity}");
         
-        // Тут пізніше додамо збереження в Singleton HTML-репорт
+        // Записуємо результат у Singleton
+        HtmlReportExporter.Instance.AddResult(timer.Name, _dataSize, timer.Complexity, timer.LastExecutionTimeMs);
     }
 
     private int[] GenerateRandomData(int size)
